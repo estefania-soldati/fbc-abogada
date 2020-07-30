@@ -86,6 +86,11 @@ $(document).ready(function() {
     });
   });
 
+  //IOS Mobile
+  if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+    $('.bg-attachment-fixed').css('background-attachment','initial');
+  }
+
 });
 
 
