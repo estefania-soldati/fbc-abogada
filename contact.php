@@ -1,6 +1,6 @@
 <?php
 /* You Mail ID */
-define('TO_EMAIL', 'info@nexo.site');
+define('TO_EMAIL', 'contacto@fbc-abogada.com');
 class Mailer{
 
     private $_params;
